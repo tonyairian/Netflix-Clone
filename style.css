@@ -1,0 +1,289 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  outline: none;
+ 
+}
+
+.netflix{
+  background:rgba(0,0,0,0.7) url(assets/home.jpg);
+  /* opacity: 0.9; */
+  box-sizing: border-box;
+  background-size: cover;
+  background-blend-mode: darken;
+  
+}
+
+header{
+  box-sizing: border-box;
+  display: flex;
+  height: 100px;
+
+  justify-content: space-between;
+}
+
+.left-div,.right-div{
+ 
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+
+  
+}
+.logo{
+  width: 180px;
+  height: 60px;
+  margin-left: 40px;
+
+}
+
+.right-div select{
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-weight: 400;
+  font-size: medium;
+  margin-top: 20px;
+  margin-left: 45px;
+height: 35px;
+width: 100px;
+  
+}
+option{
+  background-color: gray;
+
+}
+.sign-in{
+  background-color: #e50914;
+  border: 1px solid #e50914 ;
+  float: right;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px 17px;
+  color: white;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+ 
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.text-1{
+  font-weight: 600;
+  font-size: 4rem;
+  color: white;
+}
+.text-2{
+font-weight: 100;
+  font-size: 2.3rem;
+  color: white;
+  
+}
+.text-3{
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.email{
+  padding: 25px;
+  width: 100%;
+  font-size: 20px;
+  color: #303030;
+  text-align: center;
+ 
+  
+}
+.log-in{
+  padding: 20px;
+background-color: #e50914;
+text-align: center;
+color: #fff;
+cursor: pointer;
+font-weight: 400;
+border: 1px solid #e50914 ;
+height: 88px;
+width: 210px;
+font-size: 25px;
+width: 100%;
+margin-top: 10px;
+}
+table{
+  margin: 50px;
+  padding: 16px;
+}
+td{
+  padding: 7px;
+  font-weight: 200;
+  color:#737373 ;
+}
+
+footer{
+  display: flex;
+  /* justify-content: center; */
+  background-color: rgb(0, 0, 0);
+  height: 360px;
+}
+.phone,span{
+  padding: 7px;
+  font-weight: 200;
+  color:#737373 ;
+  text-decoration: none;
+}
+
+.section-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 500px;
+ text-align: center;
+ font-weight: 400;
+}
+
+
+.section-2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 500px;
+ text-align: center;
+ font-weight: 400;
+}
+
+.s-1 h1{
+  font-size: 3rem;
+}
+ 
+.s-1 h2{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+ 
+hr{
+  height: 5px;
+  background-color: #202122;
+  border: none;
+
+}
+.final{
+  background-color: black;
+  color: white;
+  font-size: 3.8rem;
+  text-align: center;
+  padding: 20px 0px;
+}
+.final h2{
+  padding-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.questions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ background-color: black;
+ color: white;
+ font-size: 30px;
+}
+
+.questions div{
+  width: 800px;
+  height: 80px;
+  text-align: center;
+  background-color: #303030;
+  margin: 10px;
+  padding: 20px;
+}
+.final{
+  font-size: 1rem;
+  text-align: center;
+
+}
+.final input{
+  width: 75vh;
+  padding: 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.final p{
+  font-weight:400;
+  color: orange;
+  margin-right:630px;
+  padding: 20px;
+  
+}
+
+.final button{
+ display: inline-block;
+ width: 25vh;
+ padding: 23px;
+ background-color: #e50914;
+ border: 1px solid #e50914 ;
+ font-size: 1rem;
+ font-weight: 400;
+ line-height: normal;
+ color: white;
+ font-weight: 100;
+ cursor: pointer;
+
+}
+
+footer select{
+  position: relative;
+  right: 670px;
+  top: 230px;
+  height: 50px;
+  width: 130px;
+  border-radius: 5px;
+  border: 1px solid #303030 ;
+  background-color: black;
+  color: white;
+  padding-left: 25px;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+
+
+.done{
+  position: relative;
+  left:  340px;
+  margin-top: 40px;
+}
+
+.pp{
+  color: white;
+  position: absolute;
+  margin-top: 310px;
+ left: 340px;
+font-weight: lighter;
+ font-size: 12px;
+ letter-spacing: 1px;
+}
+ footer a{
+  color: #737373;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.footer a:hover{
+  text-decoration: underline ;
+  
+}
